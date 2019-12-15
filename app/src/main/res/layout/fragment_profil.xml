@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/news">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/pinkmita"
+        android:padding="16dp"
+        tools:context=".ProfilFragment">
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="NEWS READER"
+        android:textAlignment="center"
+        android:fontFamily="@font/mitafont"
+        android:textSize="40sp"
+        />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/mitamardina" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama : Mita Mardina"
+            android:fontFamily="@font/mitafont"
+            android:textSize="20sp"
+            />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nim : 09031181722004"
+        android:fontFamily="@font/mitafont"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INDO NEWS"
+        android:fontFamily="@font/mitafont"
+        android:textSize="30sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Indo News merupakan tempat perkumpulan berita terupdate yang dapat di baca oleh semua pengguna smartphone, indonews hanya menampilkan berita yang ada di indonesia mulai dari tanggal penerbitan berita tersebut. Kategori Indonews tersebut yaitu : transportasi, olahraga, teknologi, bisnis, kesehatan, ilmu pengetahuan dan artis/entertainment "
+        android:textAlignment="center"
+        android:fontFamily="@font/mitafont"
+        android:textSize="20sp"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Tujuan dari aplikasi indonews ini yaitu untuk memudahkan pengguna smartphone dalam mendapatkan informasi terbaru dan menyebarkan atau menginformasikan kepada kerabat keluarga ataupun rekan kerja "
+            android:textAlignment="center"
+            android:fontFamily="@font/mitafont"
+            android:textSize="20sp"
+            />
+
+    <Button
+        android:id="@+id/back_home"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BACK TO HOME"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

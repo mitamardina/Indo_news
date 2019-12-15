@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/baseline_home_black_18dp"
+        android:title="Home"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/navigation_feedback"
+        android:icon="@drawable/baseline_cast_black_18dp"
+        app:showAsAction="never"
+        android:title="feedback"/>
+
+    <item
+        android:id="@+id/navigation_profil"
+        android:icon="@drawable/baseline_perm_identity_black_18dp"
+        app:showAsAction="never"
+        android:title="profil"/>
+
+</menu>
